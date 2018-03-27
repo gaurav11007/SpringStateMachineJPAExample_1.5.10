@@ -15,6 +15,7 @@ Payload :
           {
             "machineid" : "11",
           }
+          
 This request will create statemachine with machineId as "11" & Initialize it to initial State "I" and persist it Database ( table : state_machine )          
           
 2) 
