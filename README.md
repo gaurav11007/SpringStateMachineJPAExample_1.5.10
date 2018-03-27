@@ -33,3 +33,6 @@ Payload :
 This request will find stateMachine in DB against given machine ID and if found it will use persisted stateMachine context to
 create stateMachine instance to the state as it was persisted earlier. If fail to find will return new instance initialized to its given 
 initial state.
+
+
+# Note : Dont forget to change DB details ( User -password, DB name in application.properties )
